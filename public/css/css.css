@@ -1,0 +1,257 @@
+body
+{
+    overflow-x: hidden;
+}
+.container-fluid
+{
+    padding: 0;
+}
+.navbar
+{
+    font-weight: bold;
+    background: #485fd1;
+    border: 0;
+
+}
+.navbar-inverse li a, .navbar-brand
+{
+    color: white !important;
+}
+.navbar-inverse li a:hover
+{
+    color: rgba(255, 255, 255, 0.62) !important;
+}
+.footer
+{
+    text-align: center;
+    background: #485fd1;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 5px;
+}
+/*scrollTop*/
+.scrollTop
+{
+    padding: 2px;
+    padding-left: 10px;
+    position: fixed;
+    right: 8px;
+    bottom: 5px;
+    background: rgba(0,0,0,0.1);
+    color: white;
+    border: solid 3px white;
+    border-radius: 25px;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+}
+.scrollTop:hover, .scrollTop:active
+{
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background: white;
+
+}
+/*Messages*/
+#messages
+{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+/*Signup,login*/
+#signup, #login
+{
+    margin-top: 13%;
+}
+.signlog
+{
+    text-align: center;
+}
+/*home*/
+#main_img
+{
+    width: 100%;
+    margin-top: 50px;
+}
+    /*about contact*/
+#about, #contact
+{
+    padding: 60px;
+}
+#about h4, #contact h4
+{
+    color: #485fd1;
+    text-align: center;
+    font-size: 22px;
+}
+#contact
+{
+    text-align: center;
+    padding-top: 70px;
+}
+#contact h4, #contact h5
+{
+    font-size: 20px;
+}
+#hire_us
+{
+    background: #485fd1;
+    margin-top: 40px;
+    padding: 40px;
+}
+#hire_us button
+{
+    border: solid 2px white;
+}
+#hire_us a
+{
+    color: white;
+}
+#hire_us a:hover
+{
+    text-decoration: none;
+}
+
+    /*team*/
+#team-container
+{
+    background: #485fd1;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: white
+}
+#team-container label
+{
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+#team-container hr
+{
+    border: solid 1.5px white;
+    width: 150px;
+    margin-top: 15px;
+
+}
+#team-container img
+{
+    height: 150px;
+    width: 150px;
+    border: solid 3px white;
+}
+#team-container p
+{
+    margin-top: 20px;
+}
+.team-block
+{
+    margin-top: 25px;
+}
+    /*map*/
+#map
+{
+    height: 300px;
+    /*background: white;*/
+}
+/*Categories*/
+.blue
+{
+    color: #485fd1;
+}
+#cat_head
+{
+    margin: 50px;
+}
+#cat_head p
+{
+    font-size: 17px;
+}
+.c_block
+{
+    padding: 30px;
+    border: solid 2px #485fd1;
+    margin-left: -2px;                      /*thick border solution*/
+    margin-top: -2px;
+}
+.c_block button
+{
+    position: relative;
+    margin-top: 16px;
+}
+/*Requests*/
+#reject_btn
+{
+    margin-left: 10px;
+}
+/*Admin Panel*/
+#admin_head
+{
+    text-align: center;
+}
+.tab-pane
+{
+    border: solid 2px #485fd1;
+    max-height: 500px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-bottom: 35px;
+    border-bottom: none;
+}
+/*Profile*/
+#profile_head
+{
+    margin: 50px;
+    text-align: center;
+}
+#details_btn a
+{
+    color: white
+}
+#details_btn a:hover
+{
+    text-decoration: none;
+}
+/*Case*/
+.case_details
+{
+    margin: 50px;
+}
+#c_phase
+{
+    text-align: right;
+    margin-bottom: 40px;
+}
+#complete
+{
+    color: #419641;
+}
+#chat_box
+{
+    'position: fixed;
+    'bottom: 0;
+    'width: inherit;
+    margin-bottom: 50px;
+}
+#chat
+{
+    'padding: 20px;
+    border: solid 2px white;
+    border-radius: 5px;
+    max-height: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    word-wrap: break-word;
+}
+.msg
+{
+    background: #ededed;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
